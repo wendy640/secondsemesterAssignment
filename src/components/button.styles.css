@@ -1,0 +1,39 @@
+.button-style {
+  flex-basis: 20%;
+      border-width: 0;
+  background-color: #eaedef;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 80px;
+   height: 80px;
+    margin: 8px;
+   border-radius: 50px;
+margin-top: 20px;
+ cursor: pointer;
+ margin-bottom: 20px;
+
+}
+
+.button-style:hover {
+  background-color: white;
+  color: #425062;
+}
+
+
+.cgreen{
+  background-color: #20b2aa; 
+    height: 80px; 
+}
+.cyellow{
+    background-color: #ffa500;  
+}
+.cred{
+    background-color: #f08080;
+}
+.cblue{
+background-color: #7d93e0;
+}
+.cpurple{
+     background-color: #9477af;
+}
