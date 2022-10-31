@@ -189,10 +189,10 @@ if (!mountedComponent) return <div />
 	return (
 		<ThemeProvider theme={themeMode}>
 			<>
-				<GlobalStyles />
 				<div className="App1">
-					<Toggle theme={theme} toggleTheme={themeToggler} /> 
-          <div className="show-calculation">
+					<GlobalStyles />
+					<Toggle theme={theme} toggleTheme={themeToggler} />
+					<div className="show-calculation">
 						<span className="result-calculation">{showCalculation()}</span>
 
 						<span className="final-result">{result === 0 ? '00' : result}</span>
@@ -261,7 +261,7 @@ if (!mountedComponent) return <div />
 						<ButtonComponent handleClick={(value) => spcl_handle(value)}>
 							=
 						</ButtonComponent>
-					</div> 
+					</div>
 				</div>
 			</>
 		</ThemeProvider>
